@@ -10,13 +10,17 @@
 }
 
 .xbox .stick.right {
-    top: 130px;
-    left: 356px;
+    top: 125px;
+    left: 350px;
 }
 
 .xbox .stick.left {
-    top: 5px;
-    left: 23px;
+    top: 0px;
+    left: 15px;
+}
+
+.stick.pressed.right, .stick.pressed.left {
+    background-position: -95px 0;
 }
 
 .xbox .button {
@@ -102,11 +106,10 @@
 }
 
 .xbox .stick {
-    position: absolute;
-    background: url(xbox-assets/stick.svgz);
-    background-position: -85px 0;
-    height: 83px;
-    width: 84px;
+    background: url(https://i.imgur.com/3sBwghP.png);
+    width: 95px;
+    height: 95px;
+    
 }
 
 .xbox .bumper.left {
