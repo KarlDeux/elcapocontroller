@@ -1,1 +1,231 @@
-https://i.imgur.com/OlLiJTN.png
+.xbox.disconnected {
+    background: url(https://i.imgur.com/Qeb7xWS.png)!important;
+}
+
+.controller.xbox {
+    background: url(https://i.imgur.com/QGtx0oY.png);
+    background-position: -33px, 0;
+    height: 748px;
+    width: 856px;
+}
+
+.xbox .stick.right {
+    top: 125px;
+    left: 350px;
+}
+
+.xbox .stick.left {
+    top: 0px;
+    left: 15px;
+}
+
+.stick.pressed.right, .stick.pressed.left {
+    background-position: -95px 0;
+}
+
+.xbox .button {
+    position: absolute;
+    background: url(https://i.imgur.com/CAUTgNl.png);
+    width: 60px;
+    height: 60px;
+}
+
+.xbox .b {
+    background-position: -221px -300px;
+    top: 76px;
+    left: 187px;
+}
+
+.xbox .a {
+    background-position: -151px -297px;
+    width: 62px!important;
+    top: 126px;
+    left: 130px;
+}
+
+.xbox .x {
+    background-position: -11px -295px;
+    top: 69px;
+    left: 73px;
+}
+
+.xbox .y {
+    background-position: -81px -295px;
+    top: 17px;
+    left: 128px;
+}
+
+.xbox .button.pressed {
+    margin-top: 0px!important;
+}
+
+.xbox .b.pressed {
+    background-position-y: -677px!important;
+}
+
+.xbox .a.pressed {
+    background-position-y: -673px!important;
+}
+
+.xbox .x.pressed {
+    background-position-y: -672px!important;
+}
+
+.xbox .y.pressed {
+    background-position-y: -672px!important;
+}
+
+.xbox .back, .xbox .start {
+    position: absolute;
+    background: url(https://i.imgur.com/CAUTgNl.png);
+    background-position: -11px -90px;
+    opacity: 100%;
+    width: 41px;
+    height: 40px;
+    left: 164px;
+    top: 3px;
+}
+
+.xbox .back {
+    position: absolute;
+    background: url(https://i.imgur.com/CAUTgNl.png);
+    background-position: -59px -90px;
+    opacity: 100%;
+    width: 41px;
+    height: 40px;
+    left: 38px;
+    top: 3px;
+}
+
+.xbox .back.pressed, .xbox .start.pressed {
+    background-position-y: -467px!important;
+}
+
+.quadrant.p0 {
+    display: none!important;
+}
+
+.xbox .stick {
+    background: url(https://i.imgur.com/OlLiJTN.png);
+    width: 95px;
+    height: 95px;
+    
+}
+
+.xbox .bumper.left {
+    position: absolute;
+    left: 21px;
+    top: 12px;
+    width: 170px;
+    height: 68px;
+    background: url(https://i.imgur.com/CAUTgNl.png);
+    background-position: 0px 0;
+    opacity: 1;
+}
+
+.xbox .bumper.left.pressed {
+    background-position-y: -376px!important;
+    background-position-x: 1px!important;
+}
+
+.xbox .bumper.right.pressed {
+    background-position-y: -376px!important;
+}
+
+.xbox .bumper.right {
+    position: absolute;
+    left: 450px;
+    top: 12px;
+    width: 170px;
+    height: 68px;
+    background: url(https://i.imgur.com/CAUTgNl.png);
+    background-position: 0px 0;
+    opacity: 1;
+}
+
+.xbox .dpad {
+    position: absolute;
+    width: 138px;
+    height: 136px;
+    top: 358px;
+    left: 245px;
+}
+
+.xbox .face {
+    background: url(https://i.imgur.com/CAUTgNl.png);
+    position: absolute;
+    opacity: 1;
+}
+
+.xbox .face.up {
+    background-position: -130px -140px;
+    left: 6px;
+    top: -10px;
+    width: 138px;
+    height: 56px;
+}
+
+.xbox .face.down {
+    background-position: -130px -195px;
+    left: 6px;
+    top: 20pxpx;
+    width: 138px;
+    height: 56px;
+}
+
+.xbox .face.left {
+    background-position: -10px -140px;
+    left: -2px;
+    top: 0px;
+    width: 47px;
+    height: 138px;
+}
+
+.xbox .face.right {
+    background-position: -64px -140px;
+    left: 92px;
+    top: 0px;
+    width: 47px;
+    height: 138px;
+}
+
+.xbox .face.up.pressed {
+    background-position-y: -517px!important;
+    z-index: 1000;
+}
+
+.xbox .face.down.pressed {
+    background-position-y: -571px!important;
+    background-position-x: -130px!important;
+    z-index: 1000;
+}
+
+.xbox .face.left.pressed {
+    background-position-y: -517px!important;
+    z-index: 1000;
+}
+
+.xbox .face.right.pressed {
+    background-position-y: -517px!important;
+    z-index: 1000;
+}
+
+.xbox .trigger.left {
+    position: absolute;
+    background-position: -281px -496px;
+    left: 22px;
+    top: 0px;
+}
+
+.xbox .trigger.right {
+    position: absolute;
+    background-position: -281px -496px;
+    left: 448px;
+    top: 0px;
+}
+
+.xbox .trigger {
+    width: 84px;
+    height: 180px;
+    background: url(https://i.imgur.com/CAUTgNl.png);
+}
